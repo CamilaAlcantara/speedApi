@@ -6,4 +6,8 @@ import com.zettaApp.apiZetta.models.Cargo;
 
 public interface CargoRepository extends JpaRepository<Cargo, Long>{
 
+    public void main(){
+        System.out.println("teste");
+    }
+
 }
